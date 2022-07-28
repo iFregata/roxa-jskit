@@ -1,0 +1,52 @@
+{
+  "name": "roxa-jskit",
+  "version": "0.0.1",
+  "description": "The helper lib of Node.js application",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rimraf lib/",
+    "build": "npm run clean && npx tsc -p ./tsconfig.build.json",
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [
+    "toolkit",
+    "roxa"
+  ],
+  "author": "Steven Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iFregata/roxa-jskit.git"
+  },
+  "dependencies": {
+    "@google-cloud/logging-bunyan": "^4.1.0",
+    "@google-cloud/trace-agent": "^5.1.6",
+    "@slack/webhook": "^6.1.0",
+    "@types/bunyan": "^1.8.8",
+    "@types/lodash": "^4.14.182",
+    "bunyan": "^1.8.15",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "firebase-admin": "^10.2.0",
+    "nanoid": "^3.3.4",
+    "redis": "^4.1.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.1",
+    "@types/node": "^17.0.32",
+    "@types/supertest": "^2.0.12",
+    "jest-extended": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  }
+}

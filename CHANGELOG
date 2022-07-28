@@ -1,0 +1,26 @@
+# 2022-07-01
+. There is an optional invalid handler for validationChainFilter
+
+# 2022-06-22
+
+. Flats the error messages for common-validators
+. Added the random functions
+. Added the date time functions
+
+# 2022-06-15
+
+. Changed the NODE_ENV values to local, jest, dev, staging, prod
+. Removed the singleton of SlackWebhook
+
+# 2022-06-13
+
+. Supported the slack webhook
+. Added the google-cloud/trace-agent
+
+# 2022-06-12
+
+. Added the google-cloud/logging-bunyan
+
+# 2022-06-10
+
+. Initial
